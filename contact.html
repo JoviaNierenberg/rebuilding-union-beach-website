@@ -29,7 +29,7 @@
   </head>
   <body>
     <!-- navbar -->
-    <nav class="navbar navbar-default">
+    <nav class="navbar navbar-default nav-white">
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -48,25 +48,36 @@
             <!-- <li><a href="index.html">Gallary</a></li> -->
             <li><a href="about.html">About</a></li>
             <li><a href="homes.html">Homes</a></li>
-            <li><a href="media.html">Media</a></li>
             <li><a href="support.html">Support</a></li>
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="contact.html">Contact<span class="sr-only">(current)</span></a></li>
+            <li><a href="contact.html">Contact<span class="sr-only">(current)</span></a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>
     <div class="container">
-      <h1>Contact</h1>
+      <h2>Contact</h2>
       <form>
-        Name: <input type="text" name="name">
-        <br>
-        Email:  <input type="text" name="email">
-        <br>
-        Message: <textarea></textarea>
-        <br>
-        <input type="submit" value="Send">
+        <div class="form-group">
+          <label for="firstname">First name</label>
+          <input type="text" class="form-control" id="firstname" placeholder="first name">
+        </div>
+        <div class="form-group">
+          <label for="lastname">Last name</label>
+          <input type="text" class="form-control" id="lastname" placeholder="last name">
+        </div>
+        <div class="form-group">
+          <label for="email">Email address</label>
+          <input type="email" class="form-control" id="email" placeholder="email">
+        </div>
+        <div class="form-group">
+          <label for="subject">Subject</label>
+          <input type="text" class="form-control" id="subject" placeholder="subject">
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea type="text" rows="10" class="form-control" id="message" placeholder="message"></textarea>
+        </div>
+        <button type="submit" class="btn btn-default">Send</button>
       </form>
     </div>
   </body>
