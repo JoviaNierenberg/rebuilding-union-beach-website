@@ -9,17 +9,29 @@ body {
 	border: none;
 	margin-bottom: 0;
 }
+.navbar-brand-bigger {
+	font-size: 22px;
+}
+.nav-link-bigger {
+	font-size: 16px;
+}
 /*.nav-active {
 	border-bottom: 1px solid currentColor;
 }*/
+h2 {
+	font-size: 2em;
+	padding-top: 1%;
+}
 ul  {
- padding-left:0;   
+ padding-left:1.5%;   
 }
 ul li  {
  list-style-position:inside
 }
 .subheading {
 	font-size: 1.2em;
+	padding-top: 1%;
+	padding-bottom: 1%;
 }
 .bg-image {
     position: relative;

@@ -39,46 +39,53 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html">Rebuilding Union Beach</a>
+          <a class="navbar-brand navbar-brand-bigger" href="index.html">Rebuilding Union Beach</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
             <!-- <li><a href="index.html">Gallary</a></li> -->
-            <li><a href="about.html">About</a></li>
-            <li><a href="homes.html">Homes</a></li>
-            <li><a href="support.html">Support</a></li>
-            <li><a href="contact.html">Contact<span class="sr-only">(current)</span></a></li>
+            <li><a class="nav-link-bigger" href="about.html">About</a></li>
+            <li><a class="nav-link-bigger" href="homes.html">Homes</a></li>
+            <li><a class="nav-link-bigger" href="support.html">Support</a></li>
+            <li><a class="nav-link-bigger" href="contact.html">Contact<span class="sr-only">(current)</span></a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>
     <div class="container">
       <h2>Contact</h2>
-      <form>
-        <div class="form-group">
-          <label for="firstname">First name</label>
-          <input type="text" class="form-control" id="firstname" placeholder="first name">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+          <img src="public/Contact.jpg" class="img-responsive">
         </div>
-        <div class="form-group">
-          <label for="lastname">Last name</label>
-          <input type="text" class="form-control" id="lastname" placeholder="last name">
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+          <form>
+            <div class="form-group">
+              <label for="firstname">First name</label>
+              <input type="text" class="form-control" id="firstname" placeholder="first name">
+            </div>
+            <div class="form-group">
+              <label for="lastname">Last name</label>
+              <input type="text" class="form-control" id="lastname" placeholder="last name">
+            </div>
+            <div class="form-group">
+              <label for="email">Email address</label>
+              <input type="email" class="form-control" id="email" placeholder="email">
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" class="form-control" id="subject" placeholder="subject">
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea type="text" rows="10" class="form-control" id="message" placeholder="message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-default">Send</button>
+          </form>
         </div>
-        <div class="form-group">
-          <label for="email">Email address</label>
-          <input type="email" class="form-control" id="email" placeholder="email">
-        </div>
-        <div class="form-group">
-          <label for="subject">Subject</label>
-          <input type="text" class="form-control" id="subject" placeholder="subject">
-        </div>
-        <div class="form-group">
-          <label for="message">Message</label>
-          <textarea type="text" rows="10" class="form-control" id="message" placeholder="message"></textarea>
-        </div>
-        <button type="submit" class="btn btn-default">Send</button>
-      </form>
+      </div>
     </div>
   </body>
 </html>
